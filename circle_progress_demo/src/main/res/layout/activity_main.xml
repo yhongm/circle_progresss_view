@@ -12,7 +12,9 @@
         android:layout_height="100dp"
         android:layout_centerInParent="true"
         custom:bgColor="#00ff00"
-        custom:progressColor="#ff0000"></com.yhongm.circle_progress_core.CircleProgressView>
+        custom:current="10"
+        custom:progressColor="#ff0000"
+        custom:total="100"></com.yhongm.circle_progress_core.CircleProgressView>
 
     <Button
         android:id="@+id/btn_add"
