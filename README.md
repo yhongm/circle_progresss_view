@@ -15,7 +15,9 @@
         custom:progressColor="#ff0000"
         custom:total="100"></com.yhongm.circle_progress_core.CircleProgressView>
 		
-		### bgColor 进度条背景色
-		### progressColor 进度条颜色
-		### total 进度条最大值
-		### current 进度条当前值
+#### bgColor 进度条背景色
+#### progressColor 进度条颜色
+#### total 进度条最大值
+#### current 进度条当前值
+
+### CircleProgressView.setCurrentProgress 方法设置当前进度
