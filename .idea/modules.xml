@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/circle_progress.iml" filepath="$PROJECT_DIR$/circle_progress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle_progress_core/circle_progress_core.iml" filepath="$PROJECT_DIR$/circle_progress_core/circle_progress_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circle_progress_demo/circle_progress_demo.iml" filepath="$PROJECT_DIR$/circle_progress_demo/circle_progress_demo.iml" />
+    </modules>
+  </component>
+</project>

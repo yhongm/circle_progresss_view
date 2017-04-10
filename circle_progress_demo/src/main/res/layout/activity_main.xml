@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yhongm.circle_progress.MainActivity">
+
+    <com.yhongm.circle_progress_core.CircleProgressView
+        android:id="@+id/circleprogress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        custom:bgColor="#00ff00"
+        custom:progressColor="#ff0000"></com.yhongm.circle_progress_core.CircleProgressView>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circleprogress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="minus" />
+</RelativeLayout>
